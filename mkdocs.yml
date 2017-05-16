@@ -1,0 +1,16 @@
+site_name: BuilerPress
+theme: readthedocs
+extra_css:
+    - css/extra.css
+
+pages:
+    - Home: index.md
+    - Basic Setup: install.md
+    - Customize Settings: customizer.md
+    - Create Pages: create-pages.md
+    - Add Contents: add-contents.md
+    - Visual Composer Elements: visual-composer.md
+    - Shortcodes: shortcodes.md
+    - How to: how-to.md
+
+use_directory_urls: false
