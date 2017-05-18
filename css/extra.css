@@ -35,3 +35,11 @@
 .no-bullets li{
     list-style: none !important;
 }
+
+.md-content img{
+    border: 5px solid #e5e5e5;
+    margin-top: 15px;
+}
+.md-typeset h1, .md-typeset h2{
+    font-weight: bold;
+}
