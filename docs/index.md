@@ -1,11 +1,10 @@
 # Introduction
-
 This documentation is last updated on 15 April 2017
 
 Thank you for purchasing BuilderPress WordPress Theme . If you have any question that is beyond the scope of this documentation, Please feel free to ask for help at our <a href="https://support.inspirythemes.com/" target="_blank">Our Support Site</a> .
 
-<p class="disclaimer"><span>Disclaimer:</span>
-                      We offer limited support for theme customers. We only provide support for our themes and their core features. We cannot guarantee our themes will work properly with all third party plugins and server environments. If you plan on adding numerous plugins to this theme then please note, We cannot facilitate support for any conflicts that might arise with this theme's default functionality. The BuilderPress WordPress theme is presented as it is.</p>
+!!! warning "Disclaimer"
+          We offer limited support for theme customers. We only provide support for our themes and their core features. We cannot guarantee our themes will work properly with all third party plugins and server environments. If you plan on adding numerous plugins to this theme then please note, We cannot facilitate support for any conflicts that might arise with this theme's default functionality. The BuilderPress WordPress theme is presented as it is.
 
 <h3>Themeforest Item Purchase Code to Signup on Support Site</h3>
 

@@ -1,4 +1,6 @@
-#Caret List
+#Shortcodes
+
+##Caret List
 
     [caret_list]
     <ul>
@@ -10,8 +12,8 @@
     [/caret_list]
 
 <img src="../img/caret-list.png" alt="caret list">
-
-#Buttons
+<div class="section-separator"></div>
+##Buttons
 
     [default_button link="link-here" target="_blank"]Button Default[/default_button]
     [button_black_to_white link="link-here" target="_blank"]Button Default[/button_black_to_white]
@@ -20,8 +22,8 @@
     [read_more_button link="#link-here" target="_blank"]Button Default[/read_more_button]
 
 <img src="../img/button-shortcodes.png" alt="Buttons">
-
-#Messages
+<div class="section-separator"></div>
+##Messages
 
     [info]<strong>Information:</strong> Here is Some information about BuilderPress[/info]
     [tip]<strong>Information:</strong> Here is Some information about BuilderPress[/tip]
@@ -29,8 +31,8 @@
     [success]<strong>Information:</strong> Here is Some information about BuilderPress[/success]
 
 <img src="../img/shortcodes-messages.png" alt="Messages">
-
-#Columns
+<div class="section-separator"></div>
+##Columns
 
     Single Column
 

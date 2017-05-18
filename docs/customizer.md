@@ -1,4 +1,6 @@
-# Header Settings
+#Theme Settings
+
+##Header Settings
 For Customize options go to <strong>Appearance > Customize</strong>
 </br>
 </br>
@@ -49,7 +51,7 @@ Select Button Text and Page to link.
 
 
 <li>
-For Banner options go to <strong>Header > Banner</strong>. Uploaded image will be shown on banner of all inner pages.
+For Banner options go to <strong>Header > Banner</strong>. Uploaded image will be shown on banner of all inner pages except the ones who has their own customer banner provided in their meta box settings..
 </br>
 <img src="../img/customizer-banner.png" alt="Customizer">
 </br>
@@ -70,8 +72,8 @@ Enter Social Network details from <strong>Header > Social Network</strong>. You 
 
 
 </ol>
-
-#Site Identity
+<div class="section-separator"></div>
+##Site Identity
 
 Select <strong>Site Identity</strong> to enter Logo, Site Title, Tagline and Site Icon.
 </br>
@@ -79,8 +81,8 @@ Select <strong>Site Identity</strong> to enter Logo, Site Title, Tagline and Sit
 </br>
 </br>
 </br>
-
-#Blog
+<div class="section-separator"></div>
+##Blog
 
 Enter BLog pages banner title from <strong>Blog</strong> panel. Default page title will be shown if field is empty.
 </br>
@@ -88,8 +90,8 @@ Enter BLog pages banner title from <strong>Blog</strong> panel. Default page tit
 </br>
 </br>
 </br>
-
-#Shop
+<div class="section-separator"></div>
+##Shop
 
 Select <strong>Shop</strong> panel to enter shop pages Banner Image, Title, Title Color and Products per page.
 </br>
@@ -97,8 +99,8 @@ Select <strong>Shop</strong> panel to enter shop pages Banner Image, Title, Titl
 </br>
 </br>
 </br>
-
-#Google Map
+<div class="section-separator"></div>
+##Google Map
 
 Select <strong>MISC > Google Map</strong> to enter map coordinates and Google Map API key.</br>
 If you wnat to learn how to get coordinates <a href="#google-map-coordinates">Click Here</a>.</br>
@@ -193,14 +195,14 @@ if you want to learn how to get Google Map API Key <a href="#google-map-api-key"
    </li>
 
    </ol>
-
-#Pre Loading Screen
+<div class="section-separator"></div>
+##Pre Loading Screen
 
   You can enable/disable Page Pre Loader from <strong> MISC > Pre Loading Screen </strong>.
    </br>
  <img src="../img/customizer-pre-loading.png" alt="Customizer">
-
-#Footer
+<div class="section-separator"></div>
+##Footer
 
 <ol>
 <li>
@@ -219,7 +221,7 @@ if you want to learn how to get Google Map API Key <a href="#google-map-api-key"
 </li>
 
 </ol>
-
-#Additional CSS
+<div class="section-separator"></div>
+##Additional CSS
  Go to <strong>Additional CSS</strong> to enter custom styles.
   <img src="../img/customizer-additional-css.png" alt="Customizer">
