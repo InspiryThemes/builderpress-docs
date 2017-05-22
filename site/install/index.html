@@ -1,147 +1,400 @@
+
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Basic Setup - BuilerPress</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
-  <link href="../css/extra.css" rel="stylesheet">
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Basic Setup";
-    var mkdocs_page_input_path = "install.md";
-    var mkdocs_page_url = "/install/index.html";
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
-  
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-
+<html lang="en" class="no-js">
+  <head>
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href="../index.html" class="icon icon-home"> BuilerPress</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.3">
+    
+    
+      
+        <title>Basic Setup - BuilerPress</title>
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-e2807e330f.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-f78e5cb881.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="amber" data-md-color-accent="amber">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href=".." title="BuilerPress" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
           
-            <li class="toctree-l1">
-		
-    <a class="" href="../index.html">Home</a>
-	    </li>
-          
-            <li class="toctree-l1 current">
-		
-    <a class="current" href="index.html">Basic Setup</a>
-    <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#install-theme">Install Theme</a></li>
-    
-
-    <li class="toctree-l2"><a href="#install-plugins">Install Plugins</a></li>
-    
-
-    <li class="toctree-l2"><a href="#import-demo-contents">Import Demo Contents</a></li>
-    
-
-    <li class="toctree-l2"><a href="#setup-woocommerce">Setup WooCommerce</a></li>
-    
-
-    <li class="toctree-l2"><a href="#configure-reading-settings">Configure Reading Settings</a></li>
-    
-
-    <li class="toctree-l2"><a href="#configure-permalinks-settings">Configure Permalinks Settings</a></li>
-    
-
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../customizer/index.html">Customize Settings</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../create-pages/index.html">Create Pages</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../add-contents/index.html">Add Contents</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../visual-composer/index.html">Visual Composer Elements</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../shortcodes/index.html">Shortcodes</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../how-to/index.html">How to</a>
-	    </li>
-          
-        </ul>
-      </div>
-      &nbsp;
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">BuilerPress</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-    
-      
-    
-    <li>Basic Setup</li>
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
               
-                <h1 id="install-theme">Install Theme</h1>
+            
+            Basic Setup
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    BuilerPress
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Basic Setup
+      </label>
+    
+    <a href="./" title="Basic Setup" class="md-nav__link md-nav__link--active">
+      Basic Setup
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#install-theme" title="install Theme" class="md-nav__link">
+    install Theme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-child-theme" title="Install Child Theme" class="md-nav__link">
+    Install Child Theme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-plugins" title="Install Plugins" class="md-nav__link">
+    Install Plugins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#import-demo-contents" title="Import Demo Contents" class="md-nav__link">
+    Import Demo Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configure-reading-settings" title="Configure Reading Settings" class="md-nav__link">
+    Configure Reading Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configure-permalinks-settings" title="Configure Permalinks Settings" class="md-nav__link">
+    Configure Permalinks Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-woocommerce" title="Setup WooCommerce" class="md-nav__link">
+    Setup WooCommerce
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../customizer/" title="Theme Settings" class="md-nav__link">
+      Theme Settings
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../create-pages/" title="Pages and Templates" class="md-nav__link">
+      Pages and Templates
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../add-contents/" title="Adding Contents" class="md-nav__link">
+      Adding Contents
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../visual-composer/" title="Visual Composer Elements" class="md-nav__link">
+      Visual Composer Elements
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../shortcodes/" title="Shortcodes" class="md-nav__link">
+      Shortcodes
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../how-to/" title="How to" class="md-nav__link">
+      How to
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#install-theme" title="install Theme" class="md-nav__link">
+    install Theme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-child-theme" title="Install Child Theme" class="md-nav__link">
+    Install Child Theme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-plugins" title="Install Plugins" class="md-nav__link">
+    Install Plugins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#import-demo-contents" title="Import Demo Contents" class="md-nav__link">
+    Import Demo Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configure-reading-settings" title="Configure Reading Settings" class="md-nav__link">
+    Configure Reading Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configure-permalinks-settings" title="Configure Permalinks Settings" class="md-nav__link">
+    Configure Permalinks Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-woocommerce" title="Setup WooCommerce" class="md-nav__link">
+    Setup WooCommerce
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="basic-setup">Basic Setup<a class="headerlink" href="#basic-setup" title="Permanent link">&para;</a></h1>
+<h2 id="install-theme">install Theme<a class="headerlink" href="#install-theme" title="Permanent link">&para;</a></h2>
 <p>To start you must have a working version of WordPress. Almost all major web hosts provides one click WordPress install and you can consult your host's help site for more information in this regard. For manual install you can consult WordPress Codex <a target="_blank" href="https://codex.wordpress.org/Installing_WordPress" target="_blank">Installing WordPress</a>.</p>
 <p>Once you have a working version of WordPress, You need to download "<a target="_blank" href="../img/all-files.png">All Files and Documentation</a>" from themeforest <a target="_blank" href="https://themeforest.net/downloads" traget="_blank">download page</a> and extract the downloaded zip to get various files including <strong>inspiry-builderpress.zip</strong>.</p>
 <h2>Install Theme Via WordPress Dashboard</h2>
@@ -152,15 +405,15 @@
 <li>Select the 'Upload Theme' option. <img src="../img/install-step3.png" alt="step-4"></br></br></br> </li>
 <li>Choose the <strong>inspiry-builderpress.zip</strong> file and press 'Install Now'.<img src="../img/install-step4.png" alt="step-4"></br></br></br></li>
 <li>Once the theme is uploaded you need to activate it. <img src="../img/install-step5.png" alt="step-5"></br></br></br></li>
-<li>After activation go to "Appearance > Customize" to play with theme's settings. You can learn about <a href="../customizer/index.html#header-settings">Customize settings in documentation</a>.
- <img src="../img/install-step6.png" alt="step-6"></br></br></br></li>
+<li>After Activation of theme. Next Step is <a href="#install-plugins"> Plugins Installation </a></li>
+
 </ol>
 
-<p>if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.</p>
 <h2>Install Theme Via FTP ( Alternative Way )</h2>
 
-<p class="text-info">if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.</p>
-
+<div class="admonition note">
+<p>if you face any problem during upload through dashboard, please upload the theme using FTP as guided below.</p>
+</div>
 <ol>
 <li>Access your hosting server using an ftp client like <a href="https://filezilla-project.org/" target="_blank">FileZilla</a></li>
 <li>Go to the 'wp-content/themes' folder of your WordPress installation</li>
@@ -168,13 +421,14 @@
 <li>Go to 'WordPress Dashboard > Appearance > Themes' section to activate the theme</li>
 </ol>
 
-<h2>Install Child Theme</h2>
+<div class="section-separator"></div>
 
+<h2 id="install-child-theme">Install Child Theme<a class="headerlink" href="#install-child-theme" title="Permanent link">&para;</a></h2>
 <p>It is better to use child theme as if you need to modify anything you modify in child theme only. This way you can easily update your parent theme whenever new update becomes available on themeforest. You can read more about child theme from <a href="https://codex.wordpress.org/Child_Themes" target="_blank">Here</a>.</p>
 <p>To install child theme, you need to upload the <strong>inspiry-builderpress-child.zip</strong> and activate it in the same way as you uploaded and activated the parent theme's <strong>inspiry-builderpress.zip</strong>.</p>
 <div class="section-separator"></div>
 
-<h1 id="install-plugins">Install Plugins</h1>
+<h2 id="install-plugins">Install Plugins<a class="headerlink" href="#install-plugins" title="Permanent link">&para;</a></h2>
 <p>After you have installed and activated the theme, there'll be a list of <strong>required</strong> and <strong>recommended</strong> plugins at the top of the WordPress dashboard.
 </br></br>
 <ol>
@@ -211,7 +465,7 @@ Activate the Installed Plugins.
 
 <div class="section-separator"></div>
 
-<h1 id="import-demo-contents">Import Demo Contents</h1>
+<h2 id="import-demo-contents">Import Demo Contents<a class="headerlink" href="#import-demo-contents" title="Permanent link">&para;</a></h2>
 <p>Top Import Demo Contents follow these steps.</p>
 <ol>
 <li>
@@ -244,7 +498,26 @@ You can deactivate and delete <strong>One Click Demo Import</strong> plugin when
 
 <div class="section-separator"></div>
 
-<h1 id="setup-woocommerce">Setup WooCommerce</h1>
+<h2 id="configure-reading-settings">Configure Reading Settings<a class="headerlink" href="#configure-reading-settings" title="Permanent link">&para;</a></h2>
+<p>It is assumed that <strong>Import Demo Data</strong> is completed and you have <strong>Home</strong> page and <strong>Blog</strong> page available for use. If this is not the case then simply create a new pages with names <strong>Home</strong> and <strong>Blog</strong> using ""default template".</p>
+<p>To configure reading settings you need to visit WordPress <strong>Admin</strong> &gt; <strong>Settings</strong> &gt; <strong>Reading</strong> and choose that front page displays as static page. Then select <strong>Home</strong> as Front Page and <strong>Blog</strong> as Posts Page and save the settings. As, displayed in screen shot below.</p>
+<p><img src="../img/reading-settings.png" alt="Reading Settings">
+   </br>
+        </br></p>
+<div class="section-separator"></div>
+
+<h2 id="configure-permalinks-settings">Configure Permalinks Settings<a class="headerlink" href="#configure-permalinks-settings" title="Permanent link">&para;</a></h2>
+<p>To configure permalinks settings visit WordPress <strong>Admin &gt; Settings &gt; Permalinks</strong> and configure it as displayed in images below.</p>
+<p><img src="../img/permalinks-settings.png" alt="Permalinks Settings">
+</br>
+</br>
+Choose the settings for Products if WooCommerce is installed
+<img src="../img/permalinks-settings2.png" alt="Permalinks Settings">
+<div class="section-separator"></div></p>
+<h2 id="setup-woocommerce">Setup WooCommerce<a class="headerlink" href="#setup-woocommerce" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p>WooCommerce Plugin is required only if you want to build your online store to sell things.</p>
+</div>
 <p>For basic setup of WooCommerce, go to <strong>WooCommerce</strong> &gt; <strong>Settings</strong>.</p>
 <ol>
 
@@ -266,7 +539,7 @@ You can deactivate and delete <strong>One Click Demo Import</strong> plugin when
     In <strong>Products</strong> tab, go to <strong>display</strong> option and select shop page.
     <img src="../img/setup-woocommerce5.png" alt="Setup WooCommerce">
     </br></br>
-    <p class="text-info-blue"><strong>Shop</strong> page is available due to the imported demo contents. If you do not have this page then you need to create new <strong>Shop</strong> page using "Default Template". For more assistance see <strong>Create Pages</strong> Section.</p>
+    <p class="admonition note"><strong>Shop</strong> page is available due to the imported demo contents. If you do not have this page then you need to create new <strong>Shop</strong> page using "Default Template". For more assistance see <strong>Create Pages</strong> Section.</p>
         </br>
         </br>
 </li>
@@ -283,7 +556,7 @@ In <strong>Checkout</strong> tab, go to <strong>Checkout options</strong> and se
     <img src="../img/setup-woocommerce4.png" alt="Setup WooCommerce">
         </br>
         </br>
-               <p class="text-info-blue"><strong>Cart</strong> and <strong>Checkout</strong> pages are available due to the imported demo contents. If you do not have these pages then you need to create new <strong>Cart</strong> and <strong>Checkout</strong>  pages using "Default Template". For more assistance see <strong>Create Pages</strong> Section.</p>
+               <p class="admonition note"><strong>Cart</strong> and <strong>Checkout</strong> pages are available due to the imported demo contents. If you do not have these pages then you need to create new <strong>Cart</strong> and <strong>Checkout</strong>  pages using "Default Template". For more assistance see <strong>Create Pages</strong> Section.</p>
            </br>
         </br>
 </li>
@@ -293,75 +566,88 @@ In <strong>Checkout</strong> tab, go to <strong>Checkout options</strong> and se
     <img src="../img/setup-woocommerce6.png" alt="Setup WooCommerce">
          </br>
             </br>
-                   <p class="text-info-blue"><strong>My Account</strong> page is available due to the imported demo contents. If you do not have this page then you need to create new <strong>My Account</strong> page using "Default Template". For more assistance see <strong>Create Pages</strong> Section.</p>
+                   <p class="admonition note"><strong>My Account</strong> page is available due to the imported demo contents. If you do not have this page then you need to create new <strong>My Account</strong> page using "Default Template". For more assistance see <strong>Create Pages</strong> Section.</p>
                </br>
             </br>
 </li>
 
 
 </ol>
-
-<div class="section-separator"></div>
-
-<h1 id="configure-reading-settings">Configure Reading Settings</h1>
-<p>It is assumed that <strong>Import Demo Data</strong> is completed and you have <strong>Home</strong> page and <strong>Blog</strong> page available for use. If this is not the case then simply create a new pages with names <strong>Home</strong> and <strong>Blog</strong> using ""default template".</p>
-<p>To configure reading settings you need to visit WordPress <strong>Admin</strong> &gt; <strong>Settings</strong> &gt; <strong>Reading</strong> and choose that front page displays as static page. Then select <strong>Home</strong> as Front Page and <strong>Blog</strong> as Posts Page and save the settings. As, displayed in screen shot below.</p>
-<p><img src="../img/reading-settings.png" alt="Reading Settings">
-   </br>
-        </br></p>
-<div class="section-separator"></div>
-
-<h1 id="configure-permalinks-settings">Configure Permalinks Settings</h1>
-<p>To configure permalinks settings visit WordPress <strong>Admin &gt; Settings &gt; Permalinks</strong> and configure it as displayed in images below.</p>
-<p><img src="../img/permalinks-settings.png" alt="Permalinks Settings">
-</br>
-</br>
-Choose the settings for Products if WooCommerce is installed
-<img src="../img/permalinks-settings2.png" alt="Permalinks Settings"></p>
+                
+                  
+                
               
-            </div>
+              
+                
+              
+            </article>
           </div>
-          <footer>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
   
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../customizer/index.html" class="btn btn-neutral float-right" title="Customize Settings">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../index.html" class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Introduction
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../customizer/" title="Theme Settings" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Theme Settings
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
     </div>
   
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
-  </div>
-
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-	  
-        </div>
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
       </div>
-
-    </section>
-    
+      
+        
+      
+    </div>
   </div>
-
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
+</footer>
       
+    </div>
+    
+      <script src="../assets/javascripts/application-6b4ff16fa7.js"></script>
+      <script>app.initialize({url:{base:".."}})</script>
       
-        <span><a href="../index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+    
+    
       
-      
-        <span style="margin-left: 15px"><a href="../customizer/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
-    <script src="../js/theme.js"></script>
-
-</body>
+    
+  </body>
 </html>

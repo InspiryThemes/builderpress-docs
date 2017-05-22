@@ -1,5 +1,7 @@
-# Introduction
-This documentation is last updated on 15 April 2017
+#BuilderPress
+
+## Introduction
+This documentation is last updated on 23 May 2017
 
 Thank you for purchasing BuilderPress WordPress Theme . If you have any question that is beyond the scope of this documentation, Please feel free to ask for help at our <a href="https://support.inspirythemes.com/" target="_blank">Our Support Site</a> .
 
