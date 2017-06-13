@@ -9,7 +9,7 @@ For Customize options go to <strong>Appearance > Customize</strong>
 
 
 <li>
-Select header layout from <strong>Header > Header Layouts </strong>
+Select header layout from <strong>Header > Header Layouts </strong>. You can also enable <strong>Sticky Menu</strong>.
 </br>
 <img src="../img/customizer-header-layout.png" alt="Customizer">
 </br>
@@ -72,6 +72,12 @@ Enter Social Network details from <strong>Header > Social Network</strong>. You 
 
 
 </ol>
+<div class="section-separator"></div>
+##Colors
+Select your desired <strong>Color Schemes</strong> from Customizer <strong>Colors</strong>. You can set your own <strong>Custom Theme Color Schemes</strong> by giving hex code as shown in image below. You can also set top menu color and hover color.
+</br>
+<img src="../img/customizer-color-schemes.png" alt="Customizer">
+
 <div class="section-separator"></div>
 ##Site Identity
 
