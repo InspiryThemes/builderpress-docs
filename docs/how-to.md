@@ -101,23 +101,4 @@ For translation to only one language please visit <a target="_blank" href="https
 <div class="section-separator"></div>
 ##Hire Customization Services
 
-If you need some additional features or want modification in existing theme features then you can contact theme customization service providers like
-
-<ol>
-<li>
-<a target="_blank" href="https://studio.envato.com/explore/wordpress-customization">Envato Studio</a>
-</li>
-
-<li>
-<a target="_blank" href="http://psdtohtmlwp.com/">psdtohtmlwp.com</a>
-</li>
-
-<li>
-<a target="_blank" href="codeable.io">codeable.io</a>
-</li>
-
-<li>
-<a target="_blank" href="http://werkpress.com/">werkpress.com</a>
-</li>
-
-</ol>
+If you need some additional features or want modification in existing theme features then you can contact us for <a target="_blank" href="https://inspirythemes.com/theme-customization/">theme customization service</a>.

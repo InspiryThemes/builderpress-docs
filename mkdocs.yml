@@ -6,7 +6,12 @@
 # MKDOCS http://www.mkdocs.org/
 # mkdocs-material http://squidfunk.github.io/mkdocs-material/
 site_name: BuilerPress
-theme: material
+theme:
+  name: 'material'
+  palette:
+    primary: 'amber'
+    accent: 'amber'
+
 extra_css:
     - css/extra.css
 
@@ -21,14 +26,7 @@ pages:
     - Shortcodes: shortcodes.md
     - How to: how-to.md
 
-#use_directory_urls: false
-
-#extra:
-
-extra:
-  palette:
-    primary: 'amber'
-    accent: 'amber'
+use_directory_urls: false
 
 
 
